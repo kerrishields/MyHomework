@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033979571EAA6AEA00EA19FD /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033979561EAA6AEA00EA19FD /* ClassesViewController.swift */; };
+		033979591EAD70E800EA19FD /* AssignmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033979581EAD70E800EA19FD /* AssignmentsViewController.swift */; };
+		038BD00B1EB1131400667BB6 /* infoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BD00A1EB1131400667BB6 /* infoStruct.swift */; };
+		03CEDDCA1EAE62A90040D48E /* AddClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEDDC91EAE62A90040D48E /* AddClassViewController.swift */; };
+		03F2B7CA1EB3E74500962DB5 /* assignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F2B7C91EB3E74500962DB5 /* assignTableViewCell.swift */; };
 		03FD8CD41EA703510047FA70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD8CD31EA703510047FA70 /* AppDelegate.swift */; };
 		03FD8CD61EA703510047FA70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD8CD51EA703510047FA70 /* ViewController.swift */; };
 		03FD8CD91EA703510047FA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FD8CD71EA703510047FA70 /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033979561EAA6AEA00EA19FD /* ClassesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
+		033979581EAD70E800EA19FD /* AssignmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentsViewController.swift; sourceTree = "<group>"; };
+		038BD00A1EB1131400667BB6 /* infoStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoStruct.swift; sourceTree = "<group>"; };
+		03CEDDC91EAE62A90040D48E /* AddClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddClassViewController.swift; sourceTree = "<group>"; };
+		03F2B7C91EB3E74500962DB5 /* assignTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assignTableViewCell.swift; sourceTree = "<group>"; };
 		03FD8CD01EA703510047FA70 /* homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FD8CD31EA703510047FA70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03FD8CD51EA703510047FA70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,9 +67,14 @@
 				03FD8CD31EA703510047FA70 /* AppDelegate.swift */,
 				03FD8CD51EA703510047FA70 /* ViewController.swift */,
 				03FD8CD71EA703510047FA70 /* Main.storyboard */,
+				03F2B7C91EB3E74500962DB5 /* assignTableViewCell.swift */,
 				03FD8CDA1EA703510047FA70 /* Assets.xcassets */,
 				03FD8CDC1EA703510047FA70 /* LaunchScreen.storyboard */,
 				03FD8CDF1EA703510047FA70 /* Info.plist */,
+				033979561EAA6AEA00EA19FD /* ClassesViewController.swift */,
+				03CEDDC91EAE62A90040D48E /* AddClassViewController.swift */,
+				033979581EAD70E800EA19FD /* AssignmentsViewController.swift */,
+				038BD00A1EB1131400667BB6 /* infoStruct.swift */,
 			);
 			path = homework;
 			sourceTree = "<group>";
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038BD00B1EB1131400667BB6 /* infoStruct.swift in Sources */,
+				03F2B7CA1EB3E74500962DB5 /* assignTableViewCell.swift in Sources */,
 				03FD8CD61EA703510047FA70 /* ViewController.swift in Sources */,
+				033979591EAD70E800EA19FD /* AssignmentsViewController.swift in Sources */,
+				033979571EAA6AEA00EA19FD /* ClassesViewController.swift in Sources */,
+				03CEDDCA1EAE62A90040D48E /* AddClassViewController.swift in Sources */,
 				03FD8CD41EA703510047FA70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +324,7 @@
 				03FD8CE41EA703510047FA70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
